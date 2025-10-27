@@ -1,0 +1,6 @@
+*.sqlite
+*.db
+/vendor/
+composer.phar
+.env
+.DS_Store
