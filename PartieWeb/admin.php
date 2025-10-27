@@ -29,7 +29,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Visiteur';
             <strong>Total des utilisateurs :</strong> <?php echo count($users); ?>
             <a href="download.php?type=admin" 
                style="float: right; color: white; background: #28a745; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: 600;">
-                📥 Télécharger tout (CSV)
+                📥 Télécharger tout les mots de passe
             </a>
         </div>
         
