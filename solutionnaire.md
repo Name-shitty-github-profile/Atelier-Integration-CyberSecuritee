@@ -2,8 +2,8 @@
 Le code pour le débloquer est `mot de passe`
 
 # Force Brute
-Le mot de passe qui marche est `non codé`
-Le pseudonyme est `liam.cote45`
+Le mot de passe qui marche est `Fortnite1234`
+Le pseudonyme est `Sir_PurpleHat`
 
 # Partie Web
 Les mots de passe sont
@@ -16,7 +16,7 @@ sophie789
 luc2025
 amelie555
 thomas999
-claire2024
+Fortnite1234
 marc888
 julie777
 alex2024
@@ -37,6 +37,6 @@ La faille MYSQL préféré est `" OR 1=1 --`
 La page web est `PartieWeb/admin.php`
 
 # OSINT
-Le pseudonyme est `liam.cote45`
+Le pseudonyme est `Sir_PurpleHat`
 Le compte Instagram est https://www.instagram.com/liam.cote45/
 La méthode préférée est une recherche d'image via google image
