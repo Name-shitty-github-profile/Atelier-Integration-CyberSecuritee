@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FAIT F11</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="term" role="main" aria-labelledby="title">
+    <section class="content" id="content" aria-live="polite">
+      <h1 id="title">Accès à l'ordinateur VERROUILLÉ</h1>
+      <p id="msgExplication" class="notice">Pour débloquer votre ordinateur.<strong>Veuillez envoyer <span>1 Bitcoin</span></strong> à 1mejtjjiwrXx9vGkY6b2q3m4z5p7r8s</p>
+
+      <form class="line" id="formCode">
+        <label class="prompt" for="userInput">Code:~$</label>
+        <input id="userInput" type="text" autocomplete="off" placeholder="Entrer le code pour déchiffrer" aria-label="Entrer une commande" />
+        <span class="caret" aria-hidden="true"></span>
+      </form>
+      <div class="error" id="errorMsg">
+            Le code est incorrect. Veuillez payer.
+      </div>
+      <div id="timerDiv" class="timer-area" aria-hidden="false">
+        <div class="timer-label">Temps restant :</div>
+        <div id="timer" class="timer">15:00</div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
