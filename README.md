@@ -50,7 +50,13 @@ En simplement modifiant l'URL pour accéder à cette page, il est possible d'avo
 3. Ouvrir Uwamp
 4. Ouvrir le navigateur www
 5. Ouvrir la page PartieWeb/init_db.php
-6. Mettre sur l'index de la page
+6. Mettre sur l'index du site
+
+### PartieWeb avec un domaine
+1. Ouvrir tous les ordinateurs dans un environnement protégé (destructions de travaux personnels impossibles)
+2. Ouvrir l'url du site web avec tout les ordinateurs
+3. Ouvrir la page PartieWeb/init_db.php sur un seul ordinateur
+4. Mettre sur l'index du site
 
 ## Dossiers de mise en situation
 1. Imprimer le fichier miseEnSituation.docx en couleur
