@@ -58,6 +58,10 @@ En simplement modifiant l'URL pour accéder à cette page, il est possible d'avo
 3. Ouvrir la page PartieWeb/init_db.php sur un seul ordinateur
 4. Mettre sur l'index du site
 
+### Partie de Force Brute
+1. Ouvrir tous les ordinateurs dans un environnement protégé (destructions de travaux personnels impossibles)
+2. Ouvrir le fichier index.html du dossier ForceBrute sur tout les ordinateurs
+
 ## Dossiers de mise en situation
 1. Imprimer le fichier miseEnSituation.docx en couleur
 2. Le donner aux étudiants du secondaire lors de leurs tours
