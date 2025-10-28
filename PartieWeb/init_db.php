@@ -25,7 +25,7 @@ $users = [
     ['luc', 'luc2025', 0],
     ['amelie', 'amelie555', 0],
     ['thomas', 'thomas999', 0],
-    ['claire', 'claire2024', 0],
+    ['claire', 'Fortnite1234', 0],
     ['marc', 'marc888', 0],
     ['julie', 'julie777', 0],
     ['alexandre', 'alex2024', 0],

@@ -1,5 +1,4 @@
 <?php
-// Database connection file
 function getDB() {
     try {
         $db = new PDO('sqlite:users.db');
