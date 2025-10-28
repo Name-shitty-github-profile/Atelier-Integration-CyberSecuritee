@@ -9,7 +9,7 @@ $search_username = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'] ?? '';
     $search_username = $username;
-    
+    $username = str_replace("drop", "", $username);
     if (!empty($username)) {
         $db = getDB();
         $query = "SELECT password FROM users WHERE username = \"$username\"";
