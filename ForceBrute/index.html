@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Site de pirate — Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="site-header" role="banner">
+    Site de pirate
+  </h1>
+
+  <main class="wrap">
+    <!-- LEFT: Normal login form (visual ONLY, no real submission) -->
+    <section class="card" aria-labelledby="normal-title">
+      <h2 id="normal-title">Connexion</h2>
+      <form id="normalForm" onsubmit="return false;" aria-describedby="normal-desc">
+        <div>
+          <label for="normal-username">Nom d'utilisateur</label>
+          <input id="normal-username" type="text" autocomplete="username" placeholder="john.doe" />
+        </div>
+        <div style="margin-top:10px">
+          <label for="normal-password">Mot de passe</label>
+          <input id="normal-password" type="text" autocomplete="current-password" placeholder="••••••••" />
+        </div>
+        <div class="actions">
+          <button type="button" class="primary" id="fakeLogin">Connexion</button>
+        </div>
+        <div class="hint" id="normal-desc">Se connecter au site qui contient tout les codes d'hackeurs au monde!</div>
+      </form>
+    </section>
+    <section class="card" aria-labelledby="brute-title">
+      <h2 id="brute-title">Force-Brute</h2>
+
+      <label for="bf-username">Nom d'utilisateur</label>
+      <input id="bf-username" type="text" placeholder="nom d'utilisateur" />
+
+      <label for="bf-passwords" style="margin-top:10px">Liste de mots de passe (un seul par ligne)</label>
+      <textarea id="bf-passwords" placeholder="password1
+password2
+letmein
+admin123
+..."></textarea>
+
+      <div class="row" style="margin-top:10px; align-items:center">
+        <button id="startBrute" class="primary">Force brute</button>
+        <button id="stopBrute" class="ghost" disabled>Stop</button>
+      </div>
+
+      <div class="status muted" id="bf-status">Inactif - va envoyer un mot de passe par 500ms</div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
