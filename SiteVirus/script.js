@@ -34,14 +34,23 @@ let remaining = 15 * 60; // seconds
       document.getElementById('userInput').focus();
 })();
 
+const elem = document.documentElement;
+if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) {
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) {
+    elem.msRequestFullscreen();
+  }
+
 const form = document.getElementById('formCode');
   form.addEventListener('submit', function(event) {
     event.preventDefault();
     if (remaining <= 0) return;
     const userInput = document.getElementById('userInput').value;
     if (userInput !== 'mot de passe') {
-        document.getElementById('errorMsg').style.display = 'block';
-        return;
+      document.getElementById('errorMsg').style.display = 'block';
+      return;
     }
     for (item of [
         document.getElementById('errorMsg'),
