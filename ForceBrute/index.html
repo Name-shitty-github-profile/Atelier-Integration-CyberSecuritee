@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Site de pirate — Login</title>
+  <title>Site de pirate — Connexion</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,17 +12,16 @@
   </h1>
 
   <main class="wrap">
-    <!-- LEFT: Normal login form (visual ONLY, no real submission) -->
     <section class="card" aria-labelledby="normal-title">
       <h2 id="normal-title">Connexion</h2>
       <form id="normalForm" onsubmit="return false;" aria-describedby="normal-desc">
         <div>
           <label for="normal-username">Nom d'utilisateur</label>
-          <input id="normal-username" type="text" autocomplete="username" placeholder="john.doe" />
+          <input id="normal-username" type="text" autocomplete="off" placeholder="john.doe" />
         </div>
         <div style="margin-top:10px">
           <label for="normal-password">Mot de passe</label>
-          <input id="normal-password" type="text" autocomplete="current-password" placeholder="••••••••" />
+          <input id="normal-password" type="text" autocomplete="off" placeholder="••••••••" />
         </div>
         <div class="actions">
           <button type="button" class="primary" id="fakeLogin">Connexion</button>
@@ -47,7 +46,6 @@ admin123
         <button id="startBrute" class="primary">Force brute</button>
         <button id="stopBrute" class="ghost" disabled>Stop</button>
       </div>
-
       <div class="status muted" id="bf-status">Inactif - va envoyer un mot de passe par 500ms</div>
     </section>
   </main>

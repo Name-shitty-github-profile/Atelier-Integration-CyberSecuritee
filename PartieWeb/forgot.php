@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <form method="POST" action="">
             <div class="form-group">
                 <label for="username">Nom d'utilisateur</label>
-                <input type="text" id="username" name="username" required autofocus>
+                <input type="text" id="username" name="username" autocomplete="off" required autofocus>
             </div>
             
             <button type="submit">Récupérer le mot de passe</button>
