@@ -14,8 +14,10 @@ L'ordinateur central va avoir un site web en plein écran qui ressemble l'affich
 
 Pour cette partie il faut :
 * le code
-# Force Brute (le code)
+# Force Brute / Exploitation de pages web non sécurisées (le code)
 Un site web où les pirates rangent les codes de rançongiciel, qui permet d'essayer divers mots de passe pour un pseudonyme spécifique, donc une attaque de Force Brute.
+
+Il est aussi possible d'aller voir la source du site en l'inspectant et trouver le mot de passe.
 
 Pour cette partie il faut :
 * Le pseudonyme
